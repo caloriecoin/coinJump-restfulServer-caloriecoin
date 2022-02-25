@@ -1,2 +1,2 @@
-# skip-restful
-줄넘기 게임 Restful API 백엔드 서비스
+# Backend
+칼로리코인 줄넘기 백엔드

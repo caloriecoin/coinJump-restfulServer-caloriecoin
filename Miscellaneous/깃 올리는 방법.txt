@@ -1,0 +1,26 @@
+0.프로젝트를 하나 만들고 다운로드 받아서 바로 연결 시키는 방식도 좋을듯
+
+1. git init
+=> Initialized empty Git repository in C:/Users/user/BAEK/PC/Desktop/caloriecoin_wemix_hackaton/.git/
+
+2. git add . // (스페이스 점이다.)
+=> 워닝이 엄청 나온다. , 점은 모든 파일을 추가하겠다 라는 뜻
+(git add index.html 이런식으로 하나만 올림)
+
+3. git commit -m "first commit"
+
+4. git remote add origin https://github.com/caloriecoin/Backend.git  // 연결고리를 만드는 과정
+
+5. git push -u origin main
+
+깃에 정말 올라가는지 테스트 해보자
+
+다시 한번 테스트
+
+또 테스트 이번에는 2번 3번 5번 테스트  => 테스트 결과 : 통과 ~
+
+그다음 테스트도 2번  5번 => 테스트 결과 : 실패 commit 해줘야함
+이번에는 git add. 뺴고 3번이랑 5번만 => 안된다. 그냥 2번 3번 5번을 한세트로 묶어서 써
+
+
+OK~~~~~~~~깃 어느정도 이해함
