@@ -16,7 +16,7 @@ exports.getAllProducts = async (req, res) => {
 exports.getOneProduct = async (req, res) => {
   try {
     const product = await UserModel.findOne({
-      product_id: req.params.product_id,
+      _id: req.params._id,
     });
     res.json(product);
   } catch (error) {
